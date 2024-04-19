@@ -111,39 +111,9 @@ python setup.py develop --no_cuda_ext
 | Stereo Image Super-Resolution | Flickr1024+Middlebury    | [link](./docs/StereoSR.md)  | [gdrive](https://drive.google.com/drive/folders/1lTKe2TU7F-KcU-oaF8jqgoUwIMb6RW0w?usp=sharing)   \|   [百度网盘](https://pan.baidu.com/s/1kov6ivrSFy1FuToCATbyrA?pwd=q263 ) |
 
 
-### Citations
-If NAFNet helps your research or work, please consider citing NAFNet.
-
+### Impove
+自己添加了视频及大分辨率视频的推理，同时加入了onnx转换脚本，最后优化改进了NAFNet，加入多头联合机制，调整了对应的loss和重建模块
 ```
-@article{chen2022simple,
-  title={Simple Baselines for Image Restoration},
-  author={Chen, Liangyu and Chu, Xiaojie and Zhang, Xiangyu and Sun, Jian},
-  journal={arXiv preprint arXiv:2204.04676},
-  year={2022}
-}
-```
-If NAFSSR helps your research or work, please consider citing NAFSSR.
-```
-@InProceedings{chu2022nafssr,
-    author    = {Chu, Xiaojie and Chen, Liangyu and Yu, Wenqing},
-    title     = {NAFSSR: Stereo Image Super-Resolution Using NAFNet},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month     = {June},
-    year      = {2022},
-    pages     = {1239-1248}
-}
-```
-
-### Contact
-
-If you have any questions, please contact chenliangyu@megvii.com or chuxiaojie@megvii.com
-
----
-
-<details>
-<summary>statistics</summary>
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=megvii-research/NAFNet)
-
-</details>
+指标：
+nafnet-0.07，psnr：33.67     ours：0.05，psnr：33.75
 
