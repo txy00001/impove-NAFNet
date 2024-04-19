@@ -115,5 +115,9 @@ python setup.py develop --no_cuda_ext
 自己添加了视频及大分辨率视频的推理，同时加入了onnx转换脚本，最后优化改进了NAFNet，加入多头联合机制，调整了对应的loss和重建模块
 ```
 指标：
-nafnet-0.07，psnr：33.67     ours：0.05，psnr：33.75
+nafnet-0.07，psnr：33.67     ours：0.05，psnr：33.75，在416×416的尺寸下，nafne：0.07-0.09s，ours：0.04-0.07s
+
+权重链接：链接：https://pan.baidu.com/s/1tA3p58nUl4POrf1d_3_aug?pwd=jm3b 
+提取码：jm3b  将对应文件夹及内容放入相应的目录下
+
 
